@@ -6,15 +6,12 @@
 
 Este projeto implementa o cálculo da função de partição de inteiros, \( p(n) \), usando a fórmula de Rademacher. A fórmula é dada por:
 
-\[
-p(n) = \frac{1}{\pi \sqrt{2}} \sum_{k=1}^{\infty} A_k(n) \sqrt{k} \frac{d}{dn} \left( \frac{\sinh \left\{ \frac{\pi}{k} \sqrt{\frac{2}{3}(n - \frac{1}{24})} \right\}}{\sqrt{n - \frac{1}{24}}} \right)
-\]
+![Equação para p(n)](/imagens/pn.svg)
 
 Onde \( A_k(n) \) é definido como:
 
-\[
-A_k(n) = \sum_{m=1}^{k-1} e^{\pi i \left( \frac{m^2}{k} \right)} e^{- 2 \pi i \frac{mn}{k}}
-\]
+![Equação para A_k(n)](/imagens/ak.svg)
+
 
 ## Requisitos
 
