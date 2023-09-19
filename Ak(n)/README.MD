@@ -22,4 +22,5 @@ O código C++ com MPFR realiza uma série de cálculos para calcular um número 
 
 ## Fórmula Final Simplificada
 A fórmula final após a simplificação é:
+
    ![Equação](Img/final.svg)
